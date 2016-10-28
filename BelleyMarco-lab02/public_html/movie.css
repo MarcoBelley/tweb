@@ -3,7 +3,7 @@
     Author     : Marco
 */
 body{
-    background-image: url(background.png);
+    background-image: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png);
     font-size: 8pt;
     font-family: Verdana, Thaoma, sans-serif;
 }
@@ -17,6 +17,10 @@ ul{
     list-style: none;
     padding-left: 0;
 }
+dt{
+    font-weight: bold;
+    margin-top: 10pt;
+}
 .centra{
   text-align: center;
 }
@@ -24,14 +28,14 @@ ul{
     color: red;
     font-size: 48pt;
     height: 83px;
-    background-image: url(rbg.png);
+    background-image: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png);
 }
 .percentuale span{
     position: absolute;
     font-weight: bold;
 }
 .titolo{
-    background-image: url(bannerbg.png);
+    background-image: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png);
     text-align: center;
     height: 50px;
 }
