@@ -25,17 +25,18 @@ ul{
 }
 dt{
     font-weight: bold;
-    margin-top: 10pt;
+    margin-top: 5pt;
 }
 .percentuale{
-    color: red;
-    font-size: 48pt;
     height: 83px;
     background-image: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png);
 }
 .percentuale span{
+    color:red;
+    font-size: 48pt;
     position: absolute;
     font-weight: bold;
+    padding-left: 10px; /* aggiunto per staccarlo un po' di più dall'immagine rotten... */
 }
 #titolo{
     background-image: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png);
@@ -45,7 +46,7 @@ dt{
 .sezcent{
     margin: auto;
     width: 800px;
-    border: 4px solid #999999;
+    border: 4px solid grey;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -68,7 +69,7 @@ dt{
 }
 .box{
     padding: 8px;
-    border: 2px solid #999999;
+    border: 2px solid grey;
     border-radius: 10px;
     background-color: #E8DC9B ; 
     font-weight: bold;
@@ -108,7 +109,7 @@ dt{
 }
 #validatori{
     position:fixed;
-    bottom: 8px;
+    bottom: 0;
     right: 0;
     opacity: 0.5;
 }
